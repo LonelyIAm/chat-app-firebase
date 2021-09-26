@@ -1,6 +1,4 @@
 import { signOut } from "@firebase/auth";
-import { useEffect, useState } from "react";
-import { Redirect, useParams } from "react-router";
 import { useAuth, useUser } from "reactfire";
 import Auth from "../lib/Auth";
 

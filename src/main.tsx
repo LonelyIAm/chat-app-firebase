@@ -1,9 +1,9 @@
+import { FirebaseOptions } from "@firebase/app";
 import React from "react";
 import ReactDOM from "react-dom";
+import { FirebaseAppProvider } from "reactfire";
 import App from "./App";
 import "./index.css";
-import { FirebaseAppProvider } from "reactfire";
-import { FirebaseOptions } from "@firebase/app";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_apiKey,
